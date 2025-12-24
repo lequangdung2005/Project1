@@ -1,0 +1,5 @@
+{
+  "name": "StreamFlow",
+  "description": "A modern, responsive music streaming frontend with built-in AI music recommendations.",
+  "requestFramePermissions": []
+}
