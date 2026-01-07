@@ -1,3 +1,8 @@
+# General
+.DS_Store
+Thumbs.db
+Desktop.ini
+
 # Logs
 logs
 *.log
@@ -7,23 +12,94 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node.js
 node_modules
 dist
 dist-ssr
 *.local
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
 # Database
 *.db
 *.sqlite
 *.sqlite3
+*.db.bak
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+.github/
+
+# Latex
+Latex/
+*.aux
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.lb
+*.synctex.gz
